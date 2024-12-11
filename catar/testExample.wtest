@@ -1,0 +1,11 @@
+import example.*
+
+describe "Grupo de test para catar"{
+
+const postrecito = new Postre(colores = 50)
+const pasteleroDeBarrio = new Pastelero(nivelDulzorDeseado = 15)
+
+test"probar calificacion que otorga un pastelero"{
+assert.equals(10, pasteleroDeBarrio.catar(postrecito))
+}
+}
