@@ -1,0 +1,10 @@
+import parcialViking.*
+
+describe "Grupo de test para funcionalidades"{
+const expedicion = new Expedicion()
+const vikingoNoProductivo = new Esclavo(tipoDeVikingo = soldadoPasivo)
+const soldadoPasivo = new Soldado(kills = 10, armas = 0)
+test"Probar agregarVikingo que no cumple requisitos"{
+assert.error(expedicion.agregarVikingo(vikingoNoProductivo))
+}
+}
